@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 
-class SelectCityTextFormField extends StatelessWidget {
+class SelectCityTextFormField extends StatefulWidget {
   const SelectCityTextFormField({super.key});
 
+  @override
+  State<SelectCityTextFormField> createState() =>
+      _SelectCityTextFormFieldState();
+}
+
+class _SelectCityTextFormFieldState extends State<SelectCityTextFormField> {
+  FocusNode selectCityFocus = FocusNode();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -12,6 +19,10 @@ class SelectCityTextFormField extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
       ),
       child: TextFormField(
+        focusNode: selectCityFocus,
+        onTapOutside: (event) {
+          selectCityFocus.unfocus();
+        },
         style: const TextStyle(
           color: Color(0xff196cba),
           fontSize: 20,
