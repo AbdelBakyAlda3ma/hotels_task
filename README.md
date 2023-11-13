@@ -1,16 +1,11 @@
 # hotels_task
 
-A new Flutter project.
+This task relates to the UI only and does not include UI behavior logic or business logic
+The quality of the code could have been improved further if I had been provided with Color Schema 
+or App Text style etc...
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/AbdelBakyAlda3ma/hotels_task/assets/130627496/e7aaf239-72cc-4d7e-be5c-26493285b9c8
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
